@@ -1,3 +1,8 @@
+/*Original Author: Nicolas Gallagher (https://www.github.com/necolas)*/
+
+/*Modified/rewritten by and for: C0MPU73R (https://www.github.com/c0mpu73r)*/
+
+
 /*
 ========================================
 Global
@@ -414,10 +419,10 @@ main {
 
 /*
 ========================================
-User Network
+Status
 ========================================
 */
-.user-network {
+.status {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -428,7 +433,7 @@ User Network
   margin-top: 13px;
 }
 
-.user-network h2 {
+.status h2 {
   font-size: 12pt;
 }
 
@@ -452,7 +457,7 @@ Blog
 
 /*
 ========================================
-Blurbs
+Information
 ========================================
 */
 .main-section-header {
@@ -467,18 +472,18 @@ Blurbs
   margin-left: 20px;
 }
 
-.blurbs h3 {
+.information h3 {
   margin: 0;
   color: #FF6600;
   font-size: 9pt;
   margin-left: 15px;
 }
 
-.blurbs p:nth-of-type(5) {
+.information p:nth-of-type(5) {
   margin-bottom: 2em;
 }
 
-.blurbs p {
+.information p {
   margin: 0 10px 15px 15px;
 }
 
@@ -489,55 +494,63 @@ Blurbs
 
 /*
 ========================================
-Projects
+Links
 ========================================
 */
-.projects header {
+.links header 
+{
   margin-bottom: 6px;
 }
 
-.projects p:nth-of-type(1) {
+.links p:nth-of-type(1) 
+{
   margin-top: 0;
   margin-left: 15px;
 }
 
-.focus-highlight {
+.focus-highlight 
+{
   color: #cc0000;
   font-weight: normal;
   font-size: 10pt;
 }
 
-.projects-pic-container {
+.links-pic-container 
+{
   display: grid;
   grid-template-columns: repeat(4, 109px);
   grid-template-rows: 160px 193px;
 }
 
-.projects-pic-container figure {
+.links-pic-container figure 
+{
   margin: 0;
 }
 
-.projects-pic-container figcaption {
+.links-pic-container figcaption 
+{
   text-align: center;
 }
 
-.projects-pic-container img {
+.links-pic-container img 
+{
   display: block;
   margin: auto;
 }
 
-.projects-list-link {
+.links-list-link {
   display: flex;
   justify-content: flex-end;
 }
 
-.projects-list-link {
+.links-list-link {
   margin-top: 7px;
   margin-right: 8px;
   margin-bottom: 30px;
 }
 
-.projects-list-link a {
+.links-list-link a 
+{
   color: #cc0000;
 }
 /*
