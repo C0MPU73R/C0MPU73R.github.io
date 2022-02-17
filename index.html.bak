@@ -50,7 +50,7 @@
 
         <!-- Profile Picture -->
         <div class="profile-picture-container">
-          <img class="profile-pic" src="pictures/logo.jpg" alt="C0MPU73R">
+          <img class="profile-pic" src="pictures/logo.png" alt="C0MPU73R">
 
           <p class="personal-msg"><b></b></p>
 
